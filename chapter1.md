@@ -1,4 +1,6 @@
-# 1. composer 安装
+```
+1. composer 安装
+```
 
 ```
 curl -sS https://getcomposer.org/installer | php
@@ -12,5 +14,25 @@ curl -sS https://getcomposer.org/installer | php
 curl -sS https://getcomposer.org/installer | php -- --install-dir=bin
 ```
 
+2. laravel 安装 （我写文档时 laravel版本是 5.8）
 
+用安装器 安装
+
+```
+composer global require laravel/installer
+```
+
+```
+laravel new blog
+```
+
+3. 可以用laradock 
+
+```
+git clone https://github.com/Laradock/laradock.git
+```
+
+4. 也可以 homestead 直接放链接
+
+[https://laravel.com/docs/5.8/homestead](https://laravel.com/docs/5.8/homestead)
 
