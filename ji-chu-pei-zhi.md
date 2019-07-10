@@ -18,5 +18,5 @@ export path=$PATH:~/.composer/vendor/bin
 laravel new test1
 ```
 
-
+因为laravel new的功能会自动 完成composer install 还有 key:generate 所以在这里就略过了。
 
