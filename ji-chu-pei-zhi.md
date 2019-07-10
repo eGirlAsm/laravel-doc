@@ -6,5 +6,11 @@
 
 要善于使用 artisan 的功能。
 
+先导出变量 全局laravel的位置,以方便 用 laravel new xxxx 来构建新的应用
+
+```
+export path=$PATH:~/.composer/vendor/bin
+```
+
 
 
