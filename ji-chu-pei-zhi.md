@@ -12,5 +12,11 @@
 export path=$PATH:~/.composer/vendor/bin
 ```
 
+然后新建应用
+
+```
+laravel new test1
+```
+
 
 
