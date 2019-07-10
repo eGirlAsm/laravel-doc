@@ -3,7 +3,8 @@
   "author": "egirlasm",
   "plugins": [
     "disqus",
-    "ga"
+    "ga",
+    "copy-code"
   ],
   "links": {
     "sidebar": {
