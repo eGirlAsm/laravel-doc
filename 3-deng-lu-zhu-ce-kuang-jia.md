@@ -20,9 +20,13 @@ Auth::routes();
 
 所有登录注册都在里面了。
 
-
-
-还有 resource/views/auth 
+还有 resource/views/auth
 
 基本的登录注册页面都在里面了。
+
+换句话说 他给我们生成了很好的规范。
+
+比如layout.
+
+之后就根据这种形式来写别的页面就行了。
 
