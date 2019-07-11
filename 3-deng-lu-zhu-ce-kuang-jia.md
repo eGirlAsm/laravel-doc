@@ -12,11 +12,17 @@ php artisan make:auth
 
 查看 routes/web.php
 
-会发现多了个  
+会发现多了个
 
 ```
 Auth::routes();
 ```
 
 所有登录注册都在里面了。
+
+
+
+还有 resource/views/auth 
+
+基本的登录注册页面都在里面了。
 
