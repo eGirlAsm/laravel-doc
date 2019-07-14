@@ -52,5 +52,9 @@ php artisan migrate
 php artisan db:seed
 ```
 
+打开你的 xxxx/login 页面 xxx可以是localhost 或者是服务器的ip或domain都是ok的。
+
+注册，登录，注销都完成了。就可以写业务功能了。
+
 
 
