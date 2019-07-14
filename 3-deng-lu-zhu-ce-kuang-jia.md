@@ -30,3 +30,27 @@ Auth::routes();
 
 之后就根据这种形式来写别的页面就行了。
 
+## finally
+
+我们需要建立用户数据库结构了。刚好这数据库结构也已经有基本的scaffold
+
+只要
+
+```
+php artisan migrate
+```
+
+就大工告成了。
+
+当然如果提前需要一些数据的话
+
+可以编辑 database/seeds/DatabaseSeeder.php 添加你想要的账号
+
+然后
+
+```
+php artisan db:seed
+```
+
+
+
