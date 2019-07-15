@@ -21,8 +21,6 @@ php artisan log-viewer:publish
 
 laravel系统日志记录器。可以用来发现运行laravel过程中发生的错误。
 
-
-
 ## Laravel permission
 
 [https://github.com/spatie/laravel-permission](https://github.com/spatie/laravel-permission)
@@ -44,6 +42,14 @@ composer require spatie/laravel-permission
 
 ```
 php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider" --tag="migrations"
+```
+
+```
+php artisan migrate
+```
+
+```
+php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider" --tag="config"
 ```
 
 
