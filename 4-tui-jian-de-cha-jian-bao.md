@@ -52,5 +52,38 @@ php artisan migrate
 php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider" --tag="config"
 ```
 
+## laravel debugbar
+
+[https://github.com/barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar)
+
+```
+composer require barryvdh/laravel-debugbar --dev
+```
+
+```
+Barryvdh\Debugbar\ServiceProvider::class,
+```
+
+需要自定义输出时
+
+```
+'Debugbar' => Barryvdh\Debugbar\Facade::class,
+```
+
+然后可以在写代码
+
+```
+Debugbar::info($object);
+Debugbar::error('Error!');
+Debugbar::warning('Watch out…');
+Debugbar::addMessage('Another message', 'mylabel');
+```
+
+生成配置文件
+
+```
+php artisan vendor:publish --provider="Barryvdh\Debugbar\ServiceProvider"
+```
+
 
 
