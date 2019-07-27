@@ -85,5 +85,23 @@ Debugbar::addMessage('Another message', 'mylabel');
 php artisan vendor:publish --provider="Barryvdh\Debugbar\ServiceProvider"
 ```
 
+## whoops
+
+[https://github.com/filp/whoops](https://github.com/filp/whoops)
+
+```
+composer require filp/whoops
+```
+
+把下面代码贴在 public/index.php  autoload.php 之后就可以啦 毕竟要先加载才能调用
+
+```
+$whoops = new \Whoops\Run;
+$whoops->prependHandler(new \Whoops\Handler\PrettyPageHandler);
+$whoops->register();
+```
+
+
+
 
 
