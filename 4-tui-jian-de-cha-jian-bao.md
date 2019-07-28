@@ -105,6 +105,8 @@ $whoops->register();
 
 [https://github.com/reliese/laravel](https://github.com/reliese/laravel)
 
+一直在找 model 生成工具 结果还真有。
+
 ```
 composer require reliese/laravel
 ```
@@ -571,7 +573,6 @@ return [
     //     ]
     // ],
 ];
-
 ```
 
 
